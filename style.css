@@ -1,0 +1,53 @@
+.div1{
+color:green;
+}
+
+
+.div2{
+color:rgb(0, 140, 255);
+}
+
+
+.div3{
+color:rebeccapurple;
+font-size: 6px;
+}
+
+
+span{
+font-style: italic;
+}
+
+
+.octopusimg1{
+width: 200px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.header{
+  text-align: center;
+}
+
+
+li{
+  text-align: center;
+  list-style-position: inside;
+}
+
+
+.octopusimg2{
+  float: left;
+  width: 200px;
+  padding: 15px;
+}
+
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
